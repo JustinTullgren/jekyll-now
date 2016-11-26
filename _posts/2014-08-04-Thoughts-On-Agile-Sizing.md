@@ -1,3 +1,8 @@
+---
+layout: post
+title: Thoughts on Agile: Sizing
+---
+
 ## Who should size? Those doing the work.
 In traditional waterfall SDLC, managers decide how long certain units of work, all of which have a *scope* (a set of requirements), 
 will take. The more experienced the manager is in actual development and how well they know their development team will hopefully 
