@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts on Agile: Sizing
+title: Thoughts on Agile - Sizing
 ---
 
 ## Who should size? Those doing the work.
