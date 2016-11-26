@@ -1,0 +1,5 @@
+I had originally intended to make this site from scratch using a NodeJS M.E.A.N stack, 
+and I am still on the way to that.  However, I have a lot I want to start talking about in the meantime. 
+I therefore took advantage of a great open source blog engine called [Ghost](https://ghost.org/)
+and will use that in the mean time.  Look back here to read about all things technical in my life 
+and an ongoing series of the projects I work on.  Thanks for reading!
