@@ -1,3 +1,8 @@
+---
+layout: post
+title: Thoughts on Agile - Sizing and Estimating
+---
+
 I am sure just by reading the heading of this post that many of you will put your war gear on and be ready to battle me on what I am about to write.  There are many views in the industry as to whether or not sizing is actually useful, possible, or uniform. I personally believe it *is* useful and possible and when I am done, hopefully you will understand how it can be uniform.
 
 #### Sizing is not...
