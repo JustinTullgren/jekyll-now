@@ -1,0 +1,33 @@
+@import 'variables';
+
+$height: 70px;
+.header-container {
+  text-align: center;
+  background-color: $black;
+
+  .site-avatar-wrapper {
+    padding: 0;
+    height: $height;
+  }
+
+  .nav-list {
+    left: -5px;
+  }
+
+  .nav-item {
+    padding: 0 5px;
+  }
+
+  .nav-link {
+    line-height: $height;
+    padding: 0;
+    color: $white;
+
+    &:hover {
+      color: $red;
+      background-color: $black;
+      border-bottom: solid 2px $red;
+      line-height: $height - 2px;
+    }
+  }
+}

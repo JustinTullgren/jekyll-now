@@ -3,16 +3,31 @@
 // VARIABLES
 //
 
+$palegold: #C0B283;
+$silk: #DCD0C0;
+$paper: #F4F4F4;
+$charcoal: #373737;
+
+$background: #F7F8FB;
+$screen: #C5C1C0;
+$steel: #0A1612;
+$denim: #1A2930;
+$marigold: #F7CE3E;
+
 // Colors
 $blue: #4183C4;
+$red: #FF606E;
+$lightBlue: #00DDD8;
+$darkBlue: #517398;
 
 // Grays
-$black: #000;
+$black: #262C3A;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
-$white: #fff;
+$white: #ffffff;
+
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
@@ -25,3 +40,7 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+
+$text: $charcoal;
+$special: $black;
+$specialState: $red;
