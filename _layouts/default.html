@@ -1,22 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
     {% include meta.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <!--<link rel="stylesheet" href="//unpkg.com/purecss@0.6.1/build/grids-responsive-old-ie-min.css">-->
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-    <!--<link rel="stylesheet" href="//unpkg.com/purecss@0.6.1/build/grids-responsive-min.css">-->
-    <!--<![endif]-->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="//unpkg.com/purecss@0.6.1/build/pure-min.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <script async src="{{ site.baseurl }}/assets/js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
 
   <body>
