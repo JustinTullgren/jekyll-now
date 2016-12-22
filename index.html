@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="posts">
+<div class="posts pure-u-1 pure-u-md-1-1">
   {% for post in site.posts %}
     <article class="post"
              itemscope
              itemtype="http://schema.org/BlogPosting">
 
-        {% include post_header.html %}
+    {% include post_header.html %}
 
       <div class="entry">
         {{ post.excerpt }}
