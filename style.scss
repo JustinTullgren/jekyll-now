@@ -20,12 +20,18 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $text;
 }
 
-.container {
+.site-avatar {
+    width: $headerHeight;
+    height: $headerHeight;
+}
+
+.container-main,
+.container-footer {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;

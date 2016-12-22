@@ -1,13 +1,12 @@
 @import 'variables';
 
-$height: 70px;
-.header-container {
+.container-header {
   text-align: center;
   background-color: $black;
 
   .site-avatar-wrapper {
     padding: 0;
-    height: $height;
+    height: $headerHeight;
   }
 
   .nav-list {
@@ -19,7 +18,7 @@ $height: 70px;
   }
 
   .nav-link {
-    line-height: $height;
+    line-height: $headerHeight;
     padding: 0;
     color: $white;
 
@@ -27,7 +26,7 @@ $height: 70px;
       color: $red;
       background-color: $black;
       border-bottom: solid 2px $red;
-      line-height: $height - 2px;
+      line-height: $headerHeight - 2px;
     }
   }
 }
