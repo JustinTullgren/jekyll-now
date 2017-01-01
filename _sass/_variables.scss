@@ -3,22 +3,20 @@
 // VARIABLES
 //
 
-$palegold: #C0B283;
-$silk: #DCD0C0;
-$paper: #F4F4F4;
-$charcoal: #373737;
-
-$background: #F7F8FB;
-$screen: #C5C1C0;
-$steel: #0A1612;
-$denim: #1A2930;
-$marigold: #F7CE3E;
-
 // Colors
 $blue: #4183C4;
 $red: #FF606E;
 $lightBlue: #00DDD8;
 $darkBlue: #517398;
+$palegold: #C0B283;
+$charcoal: #373737;
+
+$caviar: #F77604;
+$lettuce: #B8D20B;
+$salmon: #F56C57;
+$blackSeaweed: #231B12;
+
+$highlighterYellow: rgb(247, 236, 29);
 
 // Grays
 $black: #262C3A;
@@ -27,24 +25,17 @@ $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
 $white: #ffffff;
-
+$customGray: rgb(162, 172, 188);
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
+$monospace: Monospace;
 
-
-// Sizes
-$headerHeight: 70px;
-
+// Variable assignment
 $text: $charcoal;
 $special: $black;
-$specialState: $red;
+$specialState: $highlighterYellow;
+$fontStyle: $georgia;

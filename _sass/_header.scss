@@ -2,31 +2,39 @@
 
 .container-header {
   text-align: center;
-  background-color: $black;
+  background-color: $customGray;
+  line-height: 4.6875;  // 75 % 16px = 4.6875
 
   .site-avatar-wrapper {
-    padding: 0;
-    height: $headerHeight;
+    display: inline-block;
+
+    .site-avatar {
+      height: 87px;
+      width: 87px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  .nav {
   }
 
   .nav-list {
-    left: -5px;
   }
 
   .nav-item {
-    padding: 0 5px;
+    display: inline;
+    margin: 0 0.2em;
   }
 
   .nav-link {
-    line-height: $headerHeight;
-    padding: 0;
     color: $white;
+    display: inline-block;
+
+    font-weight: 700;
 
     &:hover {
-      color: $red;
-      background-color: $black;
-      border-bottom: solid 2px $red;
-      line-height: $headerHeight - 2px;
+      color: $blackSeaweed;
     }
   }
 }
