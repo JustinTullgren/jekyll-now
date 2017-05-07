@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+## *Personable Senior Software Engineer with experience leading teams who deliver state of the art enterprise software.*
+## *Public speaker for Agile best practices, JavaScript, and functional programming.*
+## *Experience as Development Manager, guiding employees towards personal and business success and growth.*
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
+#### Contact me
 
 [justin.tullgren@gmail.com](mailto:justin.tullgren@gmail.com)
