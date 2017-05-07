@@ -30,6 +30,15 @@ article p {
   line-height: 1.55; // 1.55 * 16px = 24.8
 }
 
+ul {
+	list-style: circle;
+	li {
+		display: list-item;
+		list-style-position: inside;
+		margin: 10px auto;
+	}
+}
+
 h1,
 h2,
 h3,
